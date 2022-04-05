@@ -344,7 +344,7 @@
   setTimeout(() => {
     document.getElementsByTagName("strong")[0].innerHTML = "Ayoo.. Temukan cerita kesukaanmu disini..";  
     }, 3000);
-    
+
 
     document.getElementsByClassName("btn btn-primary")[0].onclick = () => {
       alert ("Silahkan buat akun anda");
@@ -365,6 +365,11 @@
       alert ("Silahkan buat akun anda");
     }
 
+
+    document.getElementsByClassName("form-label")[1].onmousemove = () => {
+      alert ("pastikan email huruf kecil");
+    }
+    
   </script>
 </body>
 </html>
